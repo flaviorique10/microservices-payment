@@ -2,9 +2,8 @@ module github.com/huseyinbabal/microservices/payment
 
 go 1.26.3
 
-require github.com/ruandg/microservices-proto/golang/payment v0.0.0-00010101000000-000000000000
-
 require (
+	github.com/flaviorique10/microservices-proto/golang/payment v0.0.0-20260610183731-89dea178f139
 	github.com/sirupsen/logrus v1.9.0
 	github.com/uptrace/opentelemetry-go-extra/otelgorm v0.3.2
 	go.opentelemetry.io/otel v1.43.0
